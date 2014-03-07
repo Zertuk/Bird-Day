@@ -156,10 +156,12 @@ body{
 }
 
 .twitter-timeline {
+	display: none;
 	margin-top: 5%;
 	width: 85%;
 	margin-left: 7.5%;
 	margin-right: 7.5%;
+
 }
                
 
@@ -253,6 +255,7 @@ footer p a:hover {
 		}
 
 		.twitter-timeline {
+			display: inline;
 				}
 		.twitter {
 			padding-bottom: 0.87%;
@@ -269,6 +272,10 @@ footer p a:hover {
 
 
 	@media only screen and (min-width: 636px) and (max-width: 959px) {
+
+		.twitter-timeline {
+			display: inline;
+				}
 		.wirebirds2 {
 			width: 100%;
 			border-top: #3A7EAB 2px solid;
@@ -303,6 +310,9 @@ footer p a:hover {
 
 	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 	@media only screen and (min-width: 480px) and (max-width: 635px) {
+		.twitter-timeline {
+			display: inline;
+				}
 		.wirebirds2 {
 			width: 100%;
 			border-top: #3A7EAB 2px solid;
