@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+
+	<head>
+		<meta charset = "utf-8">
+		<meta name="viewport" content="width = device-width", initial-scale=1.0, maximum-scaleable=1.0>
+		<title>Bird Day - A Day for Birds</title>
+		<link rel = "stylesheet" href = "css/main.css">
+		<link href='http://fonts.googleapis.com/css?family=Alegreya+Sans+SC' rel='stylesheet' type='text/css'>
+
+		<link href='http://fonts.googleapis.com/css?family=Exo+2' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Pompiere' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Gafata' rel='stylesheet' type='text/css'>
+
+		
+<!--timer countdown-->
+	<script>
+	var birdDay = new Date('04/25/2014');
+
+    var second = 1000;
+    var minute = second * 60;
+    var hour = minute * 60;
+    var day = hour * 24;
+    var timer;
+
+    function showRemaining() {
+        var today = new Date();
+        var endDate = birdDay - today;
+        if (endDate < 0) {
+
+            clearInterval(timer);
+            document.getElementById('countdown').innerHTML = '';
+
+            return;
+        }
+        var days = Math.floor(endDate / day);
+        var hours = Math.floor((endDate % day) / hour);
+        var minutes = Math.floor((endDate % hour) / minute);
+        var seconds = Math.floor((endDate % minute) / second);
+
+        document.getElementById('countdown').innerHTML = days + 'd  ';
+        document.getElementById('countdown').innerHTML += hours + 'h ';
+        document.getElementById('countdown').innerHTML += minutes + 'm ';
+        document.getElementById('countdown').innerHTML += seconds + 's';
+    }
+
+    	timer = setInterval(showRemaining, 1000);</script>
+			
+	</head>
+
+	<body>
+
+	<div class="container">
+		<div class = "header-holder">
+			<header>
+				
+					
+					<h1>
+					Bird Day
+					</h1>
+
+					<img class = "title" src = "http://i.imgur.com/cltCt2k.png"/>
+
+
+					<a href = "https://www.facebook.com/groups/222860274396366/"><img class = "facebook" src = "http://media4.s-nbcnews.com/j/streams/2013/December/131203/2D9839980-facebooklogo.blocks_desktop_large.jpg"/></a>
+
+					<div id='countdown'></div>
+
+
+			</header>
+		</div><!-- header-holder -->
+
+		
+		
+		<div class = "img-holder">
+
+		<img class = "main-bird" src = "http://www.publicdomainpictures.net/pictures/10000/velka/1-12699633919wK1.jpg">
+		
+		</div>
+
+		<div class = "about">
+			<h1>Hello and Welcome!</h1>
+
+			<img class = "greeter" src = "http://i.imgur.com/hYCVgCE.png" align="left">
+
+			<p> Bird Day was first established by Justin Forcier and Ryan Goff on April 26th, 2011 in Fargo, North Dakota, at a approximately 5 AM when they heard the sounds of singing birds gently dancing in through their window.
+			</br></br>
+			 Overcome by the beauty of their music, the duo immediately declared the day Bird Day. Since then, every fourth Friday in April has been celebrated as Bird Day, and will be until the end of time. The next Bird Day is on Friday April 25th, 2014. 
+			</br></br>
+			
+			</p>
+		</div><!--about-->
+
+		<div class = "inbetween">
+			<img class = "wirebirds" src = "http://i.imgur.com/9rXZZrp.png?1"/>
+			<img class = "wirebirds2" src = "http://i.imgur.com/FNUkRHK.png"/>
+		</div>
+
+		<div class = "twitter">
+			<h1>What are people saying about birds today?</h1>
+<!--
+			<a class="twitter-timeline" href="https://twitter.com/search?q=%23birds+OR+%23bird+OR+%23birdday"  data-widget-id="439301090966646784">Tweets about "#birds OR #bird OR #birdday"</a>
+    		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>-->
+
+	
+
+		</div> <!-- twitter -->
+
+		<div class = "closing">
+			<h1>So what are you waiting for?</h1>
+			<p>Go out buy your favorite bird related food, your favorite bird inspired snacks, pop in a bird movie, or drink some bird booze! 
+			</br></br>
+			Bird Day is coming, and now you're part of the noble tradition that is Bird Day! Start your own Bird Day parties and spread the word! </p>
+
+			<img class = "goodbye" src = "http://i.imgur.com/023EZEd.jpg">
+
+			<h2>AVIAN ALLIES UNITE!</h2>
+
+		</div>
+
+		
+
+		<div class = "footer-holder">
+			<footer>
+				<p>Designed and Developed by Justin Forcier:
+				</br>
+				&#106;&#117;&#115;&#116;&#046;&#102;&#111;&#114;&#099;&#105;&#101;&#114;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;
+				</br>
+				</br>
+				Images via Public Domain:
+				</br>
+				<a href = "http://www.publicdomainpictures.net/browse-author.php?a=8245">George Hodan</a>
+				</br>
+				<a href = "http://www.publicdomainpictures.net/view-image.php?image=6067&picture=robin-bird">Petr Kratochvil</a>
+				<p>© 2014 Justin Forcier</p>
+				<img class = "footerbird" src = "http://www.publicdomainpictures.net/pictures/40000/velka/bird-13661007313de.jpg"/>
+			</footer>
+		
+
+		</div> <!-- footer-holder -->
+	
+	</div>
+
+	</div><!-- container -->
+
+	</body>

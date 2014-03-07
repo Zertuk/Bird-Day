@@ -1,0 +1,327 @@
+/* Eric Meyer's Reset CSS v2.0 - http://cssreset.com */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
+
+body{
+	width:100%;
+	height: auto;
+	background-color: black;
+	font-size:100%;
+	overflow-x: hidden;
+	}
+
+::selection {
+  background: black;
+  color: white;
+  text-shadow: none;
+}
+
+::-moz-selection {
+  background: black;
+  color: white;
+  text-shadow: none;
+}
+
+	
+
+
+.header-holder {
+	background-color: black;			
+	width: 100%;
+	height: 45px;
+	position: fixed;
+	opacity: 0.8;
+	-webkit-touch-callout: none;
+		-webkit-user-select: none;
+		-khtml-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+			
+	}
+
+
+
+.header-holder h1 {
+	font-size: 2em;
+	color: white;
+	position: fixed;
+	padding-top: 5px;
+	padding-left: 5px;
+	font-family: 'Pompiere', cursive;	
+	font-weight: 600;
+	
+	}
+
+.title {
+	height: 30px;
+	padding-left: 100px;
+	padding-top: 8px;
+	
+
+	}
+
+
+
+.facebook {
+	height: 30px;
+	border-radius: 10px;
+	float: right;
+	padding: 8px;
+	}
+#countdown {
+	color: red;
+	font-size: 1em;
+	display: inline;
+	padding: 17px 10px 2px 0px;
+	float: right;
+	font-family: 'Pompiere', cursive;	
+
+	}
+
+
+
+.main-bird {
+	padding-top:45px;
+	width: 100%;
+	height: auto;
+	-webkit-touch-callout: none;
+		-webkit-user-select: none;
+		-khtml-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+
+	}
+
+
+
+
+.about {
+	background-color: #43CCFA;
+	margin-top: -1%;
+	width: 100%;
+	}
+
+
+.about h1 {
+	text-align: center;
+	font-size: 2.5em;
+	color: white;
+	padding: 1%;
+	padding-top: 10%;
+	font-family: 'Pompiere', cursive;
+	}
+
+.greeter {
+	border-radius: 100%;
+	width: 20%;
+	margin: 5% 40% 5% 40%;	
+	box-shadow: 0 0 4px rgba(0, 0, 0, .8);
+
+
+	}
+
+.about p {
+	padding: 10%;
+	text-align: left;
+	font-family: 'Gafata', sans-serif;
+	color: white;
+	font-size: 1em;
+	}
+
+.wirebirds {
+	width: 100%;
+	border-top: #3A7EAB 2px solid;
+	border-bottom: #3A7EAB 2px solid;
+
+	}
+
+.wirebirds2 {
+	width: 0%;
+	}
+
+.twitter {
+	background-color: #FFA82E;
+	padding-top: 4%;
+	margin-top: -1%;
+	width: 	100%;
+	}
+
+.twitter h1 {
+	font-size: 2em;
+	text-align:	center;
+	font-family: 'Gafata', sans-serif;
+	color: white;
+	margin: 2%;
+}
+
+.twitter-timeline {
+	margin-top: 5%;
+	width: 85%;
+	margin-left: 7.5%;
+	margin-right: 7.5%;
+}
+               
+
+.closing {
+	background-color: #43CCFA;
+	text-align: center;
+	margin-top: -1%;
+	padding-bottom: 10%;
+}
+
+.closing h1 {
+	color: white;
+	font-size: 2em;
+	font-weight: 500;	
+	font-family: 'Pompiere', cursive;
+	padding: 1%;
+	padding-top: 10%;
+
+}
+
+.closing p {
+	color: white;
+	font-family: 'Gafata', sans-serif;
+	padding: 8%;
+	font-size: 1em;
+
+}
+
+.goodbye {
+	width: 70%;
+	margin: -2% 15% 5% 15%;
+	border-radius:50%;
+	box-shadow: 0px 1px 2px rgba(0, 0, 0, .8);
+
+}
+
+.closing h2 {
+	color: white;
+	font-size: 1.5em;
+	font-family: 'Pompiere', cursive;
+	padding-bottom: 10%;
+}
+
+footer {
+	background-color: white;
+	width: 100%;
+	height: 200px;
+	border-top: 1px black solid;
+	text-align: left;
+}
+
+footer p {
+	padding-left: 10px;
+	padding-top: 20px;
+	font-family: 'Gafata', sans-serif;
+
+
+}
+
+footer p a {
+	text-decoration: none;
+	color: black;
+}
+
+footer p a:hover {
+	color: #43CCFA;
+}
+
+.footerbird {
+	width: 150px;
+	float: right;
+	margin-top: -51px;
+
+}
+
+
+
+
+/* #Media Queries
+================================================== */
+	
+
+	@media only screen and (min-width: 960px) {
+		.wirebirds2 {
+			width: 100%;
+			border-top: #3A7EAB 2px solid;
+			border-bottom: #3A7EAB 2px solid;
+		}
+		.wirebirds {
+			display: none;
+		}
+
+		.twitter-timeline {
+				}
+		.twitter {
+			padding-bottom: 0.87%;
+		}
+		#countdown {
+			font-size: 1.5em;
+			margin-right: 20px;
+		}
+		.closing h2 {
+			font-size: 2.5em;
+}
+				
+			}
+
+
+	@media only screen and (min-width: 636px) and (max-width: 959px) {
+		.wirebirds2 {
+			width: 100%;
+			border-top: #3A7EAB 2px solid;
+			border-bottom: #3A7EAB 2px solid;
+		}
+		.wirebirds {
+			display: none;
+		}
+
+		.greeter {
+			border-radius: 100%;
+			width: 20%;
+			margin: 10% 5% 20% 10%;
+			box-shadow: 0 0 4px rgba(0, 0, 0, .8);
+	
+		}
+		.about {
+			padding-bottom: 15%;
+		}
+		#countdown {
+			font-size: 1.5em;
+			margin-right: 20px;
+		}
+		.closing h2 {
+			font-size: 2em;
+			
+		}
+}
+
+
+
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 635px) {
+		.wirebirds2 {
+			width: 100%;
+			border-top: #3A7EAB 2px solid;
+			border-bottom: #3A7EAB 2px solid;
+		}
+		.wirebirds {
+			display: none;
+		}
+		.greeter {
+			border-radius: 100%;
+			width: 20%;
+			margin: 15% 5% 20% 10%;
+			box-shadow: 0 0 4px rgba(0, 0, 0, .8);
+	}
+		#countdown {
+			font-size: 1.5em;
+			margin-right: 20px;
+		}
+
+	}
+
+	 	
